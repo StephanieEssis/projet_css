@@ -1,0 +1,111 @@
+
+
+/* Utiliser la police Roboto */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #7cb2b7;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+
+.nav-image{
+  max-width: 20%;
+  height: 20% ;
+}
+/* Styles pour la barre de navigation inline */
+.nav-list {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color:white;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+/* Styles pour les titres et les descriptions des sections */
+.section-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+
+/* Styles pour la liste des travaux */
+.work-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Styles pour le tableau du résumé */
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resume-table th, .resume-table td {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.resume-table th {
+  background-color: #f2f2f2;
+}
+
+/* Styles pour le formulaire de contact */
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #451322;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: auto;
+  border: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}

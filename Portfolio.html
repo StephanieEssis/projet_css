@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+<body>
+  
+  <header>
+    <div class="navbar">
+    <nav>
+      <h1 class="logo">
+      </h1>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <img src="./images/icon_project_css.jpg" alt="" class="nav-image ">
+
+      <h1 class="section-title">Bienvenue Sur Mon Portfolio</h1>
+      <p class="section-description">Ceci est mon portfolio personnel mettant en valeur mes compétences et mes projets.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-description">Je suis un développeur web passionné par la création de sites web attrayants et fonctionnels.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <h2 class="section-title">My Work</h2>
+      <ul class="work-list">
+        <li>Projet 1: creation de site web dynamique pour e-commerce.</li>
+        <li>Projet 2: creation de site web responsive.</li>
+        <li>Projet 3: creation de site dynamique de Portfolio.</li>
+        <li>Projet 4: creation de base de données avec googleapis.</li>
+      </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <h2 class="section-title">Resume</h2>
+      <table class="resume-table">
+        <tr>
+          <th>Année</th>
+          <th>Experience Professionnelles</th>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>Developpeur chez chartered consulting.</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Developpeur web chez kantis.</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>Frontend Developer chez oraplus.</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <form action="/submit_contact" method="POST" class="contact-form">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="envoyer">
+
+        
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Mon Portfolio. Tous droits  reservés.</p>
+  </footer>
+
+</body>
+</html>
